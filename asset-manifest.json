@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mobilezone/static/css/main.f855e6bc.css",
+    "main.js": "/mobilezone/static/js/main.6443dc18.js",
+    "static/js/453.ba93cec7.chunk.js": "/mobilezone/static/js/453.ba93cec7.chunk.js",
+    "index.html": "/mobilezone/index.html",
+    "main.f855e6bc.css.map": "/mobilezone/static/css/main.f855e6bc.css.map",
+    "main.6443dc18.js.map": "/mobilezone/static/js/main.6443dc18.js.map",
+    "453.ba93cec7.chunk.js.map": "/mobilezone/static/js/453.ba93cec7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6443dc18.js"
+  ]
+}
