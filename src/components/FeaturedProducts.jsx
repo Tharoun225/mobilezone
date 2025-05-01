@@ -24,7 +24,30 @@ const products = [
   },
 ];
 
-const FeaturedProducts = () => {
+const FeaturedProducts = ({ onAddToCart }) => {
+  return (
+    <section style={styles.section} id="products">
+      <h2 style={styles.title}>Produits en Vedette</h2>
+      <div style={styles.grid}>
+        {products.map((product) => (
+          <div key={product.id} style={styles.card}>
+            <img src={product.image} alt={product.name} style={styles.image} />
+            <h3 style={styles.name}>{product.name}</h3>
+            <p style={styles.price}>{product.price}</p>
+            <button
+              style={styles.button}
+              onClick={() => onAddToCart(product)}
+            >
+              Acheter
+            </button>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+/*const FeaturedProducts = () => {
   return (
     <section style={styles.section} id="products">
       <h2 style={styles.title}>Produits en Vedette</h2>
@@ -40,7 +63,7 @@ const FeaturedProducts = () => {
       </div>
     </section>
   );
-};
+};*/
 
 const styles = {
   section: {
