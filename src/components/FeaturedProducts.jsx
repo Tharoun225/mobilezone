@@ -26,16 +26,16 @@ const products = [
 
 const FeaturedProducts = ({ onAddToCart }) => {
   return (
-    <section style={styles.section} id="products">
-      <h2 style={styles.title}>Produits en Vedette</h2>
-      <div style={styles.grid}>
+    <section className="featured-products" id="products">
+      <h2 className="section-title">Produits en Vedette</h2>
+      <div className="product-grid">
         {products.map((product) => (
-          <div key={product.id} style={styles.card}>
-            <img src={product.image} alt={product.name} style={styles.image} />
-            <h3 style={styles.name}>{product.name}</h3>
-            <p style={styles.price}>{product.price}</p>
+          <div key={product.id} className="product-card">
+            <img src={product.image} alt={product.name} className="product-image" />
+            <h3 className="product-name">{product.name}</h3>
+            <p className="product-price">{product.price}</p>
             <button
-              style={styles.button}
+              className="product-button"
               onClick={() => onAddToCart(product)}
             >
               Acheter
@@ -45,71 +45,6 @@ const FeaturedProducts = ({ onAddToCart }) => {
       </div>
     </section>
   );
-};
-
-/*const FeaturedProducts = () => {
-  return (
-    <section style={styles.section} id="products">
-      <h2 style={styles.title}>Produits en Vedette</h2>
-      <div style={styles.grid}>
-        {products.map((product) => (
-          <div key={product.id} style={styles.card}>
-            <img src={product.image} alt={product.name} style={styles.image} />
-            <h3 style={styles.name}>{product.name}</h3>
-            <p style={styles.price}>{product.price}</p>
-            <button style={styles.button}>Acheter</button>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};*/
-
-const styles = {
-  section: {
-    padding: "60px 20px",
-    backgroundColor: "#f9f9f9",
-    textAlign: "center",
-  },
-  title: {
-    fontSize: "2rem",
-    marginBottom: "40px",
-  },
-  grid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-    gap: "20px",
-    maxWidth: "1000px",
-    margin: "0 auto",
-  },
-  card: {
-    backgroundColor: "#fff",
-    borderRadius: "10px",
-    padding: "20px",
-    boxShadow: "0 0 10px rgba(0,0,0,0.1)",
-  },
-  image: {
-    width: "100%",
-    height: "200px",
-    objectFit: "cover",
-    borderRadius: "8px",
-  },
-  name: {
-    fontSize: "1.2rem",
-    margin: "15px 0 10px",
-  },
-  price: {
-    fontWeight: "bold",
-    marginBottom: "10px",
-  },
-  button: {
-    padding: "10px 20px",
-    backgroundColor: "#0a0a23",
-    color: "#fff",
-    border: "none",
-    borderRadius: "5px",
-    cursor: "pointer",
-  },
 };
 
 export default FeaturedProducts;

@@ -2,20 +2,20 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer style={styles.footer}>
-      <div style={styles.container}>
-        <p style={styles.text}>© 2025 MobileZone. Tous droits réservés.</p>
-        <div style={styles.socials}>
-          <a href="https://www.facebook.com" style={styles.icon}>🌐</a>
-          <a href="https://www.instagram.com" style={styles.icon}>📸</a>
-          <a href="https://www.twitter.com" style={styles.icon}>🐦</a>
+    <footer className="footer">
+      <div className="container">
+        <p className="text">© 2025 MobileZone. Tous droits réservés.</p>
+        <div className="socials">
+          <a href="https://www.facebook.com" className="icon">🌐</a>
+          <a href="https://www.instagram.com" className="icon">📸</a>
+          <a href="https://www.twitter.com" className="icon">🐦</a>
         </div>
       </div>
     </footer>
   );
 };
 
-const styles = {
+/*const styles = {
   footer: {
     backgroundColor: "#0a0a23",
     color: "#fff",
@@ -40,5 +40,5 @@ const styles = {
     color: "#fff",
   },
 };
-
+*/
 export default Footer;
