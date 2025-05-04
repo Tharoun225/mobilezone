@@ -547,3 +547,135 @@
     padding: 30px;
   }
 }
+
+/* FOOTER */
+.footer {
+  background-color: #0a0a23;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer .text {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.footer .socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer .icon {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer .icon:hover {
+  color: #ff6b6b;
+}
+
+@media (max-width: 600px) {
+  .footer .text {
+    font-size: 0.9rem;
+  }
+
+  .footer .icon {
+    font-size: 1.2rem;
+  }
+}
+
+/*Checkout CSS*/
+.checkout {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.checkout-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.checkout-items {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout-total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.checkout-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+.checkout-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.checkout-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-form button:hover {
+  background-color: #0056b3;
+}
+
+.checkout-form button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.checkout-success {
+  margin-top: 20px;
+  background-color: #d4edda;
+  color: #155724;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}

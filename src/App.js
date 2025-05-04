@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import Cart from './components/Cart/Cart';
 import LoginPage from "./components/LoginPage/LoginPage";
 import RegisterPage from "./components/RegisterPage/RegisterPage";
-
+import Checkout from "./components/Checkout";
 
 
 function App() {
@@ -27,6 +27,11 @@ function App() {
   };
 
   const handleClearCart = () => {
+    setCartItems([]);
+  };
+
+  const handlePlaceOrder = (orderDetails) => {
+    console.log("Commande passée :", orderDetails);
     setCartItems([]);
   };
 
@@ -49,7 +54,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>
-      
+      <Checkout cartItems={cartItems} onPlaceOrder={handlePlaceOrder} />
       <Footer />
     </Router>
   );

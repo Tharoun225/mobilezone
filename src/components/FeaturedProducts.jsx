@@ -6,21 +6,21 @@ const products = [
     name: "iPhone 14 Pro",
     price: "1 299 €",
     image:
-      "https://images.unsplash.com/photo-1660847739489-3a92dfb582a0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1680687688158-e9165395ff00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXBob25lJTIwMTQlMjBwcm8lMjB2aW9sZXR8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 2,
     name: "Samsung Galaxy S22",
     price: "999 €",
     image:
-      "https://images.unsplash.com/photo-1642513836559-f0b6595b9e88?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1707438095902-cc23b01ac7a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFNhbXN1bmclMjBHYWxheHklMjBTMjJ8ZW58MHx8MHx8fDA%3D",
   },
   {
     id: 3,
     name: "Xiaomi 13 Pro",
     price: "799 €",
     image:
-      "https://images.unsplash.com/photo-1636919256353-27fa24b7203e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1658817774203-341b9b9e67a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8WGlhb21pJTIwMTMlMjBwcm98ZW58MHx8MHx8fDA%3D",
   },
 ];
 
