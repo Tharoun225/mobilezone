@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mobilezone/static/css/main.a8b24e6b.css",
-    "main.js": "/mobilezone/static/js/main.b5630077.js",
+    "main.css": "/mobilezone/static/css/main.5846e085.css",
+    "main.js": "/mobilezone/static/js/main.d90aa521.js",
     "static/js/453.ba93cec7.chunk.js": "/mobilezone/static/js/453.ba93cec7.chunk.js",
     "index.html": "/mobilezone/index.html",
-    "main.a8b24e6b.css.map": "/mobilezone/static/css/main.a8b24e6b.css.map",
-    "main.b5630077.js.map": "/mobilezone/static/js/main.b5630077.js.map",
+    "main.5846e085.css.map": "/mobilezone/static/css/main.5846e085.css.map",
+    "main.d90aa521.js.map": "/mobilezone/static/js/main.d90aa521.js.map",
     "453.ba93cec7.chunk.js.map": "/mobilezone/static/js/453.ba93cec7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b24e6b.css",
-    "static/js/main.b5630077.js"
+    "static/css/main.5846e085.css",
+    "static/js/main.d90aa521.js"
   ]
 }
